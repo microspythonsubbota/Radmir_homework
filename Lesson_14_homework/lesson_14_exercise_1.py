@@ -8,9 +8,9 @@ class Computer:
         self.say_computer_name()
 
     def __str__(self):
-        return f'Класс Computer с полями: owner: ' \
+        print(f'Класс Computer с полями: owner: ' \
                f'{self.owner}, processor: {self.processor}, ozu: {self.ozu}, ' \
-               f'hdd: {self.hdd}, monitor: {self.monitor}'
+               f'hdd: {self.hdd}, monitor: {self.monitor}')
 
     def say_computer_name(self):
         print(f'Владелец компьютера {self.owner}')
